@@ -8,7 +8,7 @@ hour_range5 = 0 # hours worked are greater than 18
 
 best_employee = 0
 
-for i in range(4):
+for i in range(30):
     employee_name = input("Enter employee name ::")
     employee_no = int(input("Enter employee number ::"))
     hrs_worked = int(input("Enter number of hours worked ::"))
@@ -56,6 +56,3 @@ print("The best employee is ::", new_name)
 print("With employee code ::", new_no)
 print("For having worked ::", best_employee, "hours")
 print("Thereby, recieving gross pay of :: $", bestemp_pay)
-
-
-
