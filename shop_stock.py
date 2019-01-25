@@ -22,7 +22,8 @@ def shop_stock():
             stockno[i] = stockno[i] - 1
             print('NET STOCK:', stockno[i])       
             print('TOTAL BILL: $', prices[i])
-
+            
+    #task 3
     for i in range(0,3):
         if stockno[i] < 50:
             print(prodid[i], ': THIS PRODUCT NEEDS TO BE REODERED!')
