@@ -58,8 +58,3 @@ while input != 'quit':
 
 #task 4:           
 print(sold_no, 'NUMBER OF HOUSES SOLD')
-        
-
-
-
-    
