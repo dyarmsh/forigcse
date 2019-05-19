@@ -100,16 +100,12 @@ for i in range (0, item):
         print(itemno[i], ':HAS NO BIDS')
         nobids += 1
 
-    elif nobid[i] == 1:
+    elif nobid[i] > 0:
         no_bid += 1
         print('ITEMS WHICH DID NOT REACH THEIR RESERVE PRICE:')
         print("ITEM NO\t\t\tFINALBID")
         print(itemno[i],'  ', nobidprice[i])
                 
-print('BIDS LESSER THAN RESERVE PRICE:', nobid[i])
+print('BIDS LESSER THAN RESERVE PRICE:', no_bid)
 print('NUMBER OF ITEMS SOLD/ NOT SOLD:', sold, '/', notsold)
 print('NUMBER OF ITEMS WITH NO BIDS:', nobids)
-
-
-    
-   
